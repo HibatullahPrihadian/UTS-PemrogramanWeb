@@ -54,8 +54,10 @@ header {
     text-align: justify;
 
 }
-.h1 {
-    font-size: 30px;
+h1 {
+    margin: 4%;
+    font-size: 40px;
+    text-align: center;
 }
 img {
     max-width: 100%;
