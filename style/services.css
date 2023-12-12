@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 53px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  overflow: hidden;
+  display: block;
+  background-color: #1d2a35;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  z-index: 100;
+}
+
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #1bb68f;
+  color: #eeeeee;
+}
+
+header {
+  background-color: #1fab89;
+  color: white;
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #1d2a35;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: #e1e1e1;
+  text-align: left;
+  font-size: 44px;
+  font-weight: bolder;
+}
+.text-overlay p {
+  font-size: 34px;
+}
+.gradient-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.8) 60%
+  );
+  pointer-events: none;
+  /* Untuk memastikan gradient tidak menghalangi elemen di bawahnya */
+}
+.image-container-2 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container-2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay-2 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  color: #0c9c78;
+  text-align: left;
+  font-size: 44px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.text-overlay-2 p {
+  font-size: 34px;
+}
+
+.image-container-3 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container-3 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay-3 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #005b44;
+  text-align: left;
+  font-size: 44px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  width: 40%;
+}
+
+.text-overlay-3 p {
+  font-size: 34px;
+}
+
+.image-container-4 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container-4 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay-4 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fffaeb;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  width: 40%;
+}
+
+.text-overlay-4 p {
+  font-size: 31px;
+}
+
+.tagline {
+  color: #00523e;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 0;
+}
+
+.line {
+  background-color: #1fab89;
+  padding: 35px;
+}

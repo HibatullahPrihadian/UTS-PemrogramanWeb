@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 53px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+}
+h1 {
+  font-size: 34px;
+}
+.navbar {
+  overflow: hidden;
+  display: block;
+  background-color: #1d2a35;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  z-index: 100;
+}
+
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #1bb68f;
+  color: #eeeeee;
+}
+header {
+  background-color: #1fab89;
+  color: white;
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #1d2a35;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  width: 100%;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+  color: #0c9c78;
+  text-align: left;
+  font-size: 44px;
+  font-weight: bolder;
+}
+
+.image-container-2 {
+  position: relative;
+  display: inline-block;
+}
+.image-container-2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.text-overlay-2 {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  color: #0c9c78;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.tagline {
+  color: #00523e;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  padding: 0;
+}
+.line {
+  background-color: #1fab89;
+  padding: 35px;
+}
+.reason h1  {
+  font-size: 38px;
+}
+.image-collage{
+  float: right;
+  margin-top: 4%;
+}
+.image-collage img {
+  max-width: 37%;
+  padding: 90px;
+  float: left;
+  
+}
+.image-collage p {
+  margin: 4% 5% 10% 8%;
+  font-size: 28px;
+  text-align: justify;
+  letter-spacing: 0.8px;
+  line-height: 1.4;
+}
+.image-collage h1 {
+  font-size: 34px;
+  margin-top: 5%;
+}
+.image-collage-2{
+  float: right;
+  margin-top: 0%;
+}
+.image-collage-2 img {
+  max-width: 37%;
+  padding: 90px;
+  float: right;
+  
+}
+.image-collage-2 p {
+  margin: 4% 5% 10% 8%;
+  font-size: 28px;
+  text-align: justify;
+  letter-spacing: 0.8px;
+  line-height: 1.4;
+}
+.image-collage-2 h1 {
+  font-size: 34px;
+  margin-top: 5%;
+}
+.image-collage-3{
+  float: left;
+  margin-top: 0%;
+}
+.image-collage-3 img {
+  max-width: 37%;
+  padding: 90px;
+  float: left;
+  
+}
+.image-collage-3 p {
+  margin: 4% 5% 10% 8%;
+  font-size: 28px;
+  text-align: justify;
+  letter-spacing: 0.8px;
+  line-height: 1.4;
+}
+.image-collage-3 h1 {
+  font-size: 34px;
+  margin-top: 5%;
+}
+
+/* CSS Dasar untuk Tombol */
+.button {
+  font-family: "Montserrat", sans-serif;
+  margin: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #1d2a35;
+  border-radius: 5px;
+  color: #1d2a35;
+  background-color: white;
+  transition: background-color 0.5s, color 0.3s, border-color 0.3s;
+}
+
+/* Efek Hover pada Tombol */
+.button:hover {
+  background-color: #1FAB89;
+  color: white;
+  border-color: #1FAB89;
+}
+
+/* Tombol Sekunder */
+.button.secondary {
+  border-color: #2ecc71;
+  color: #2ecc71;
+}
+
+.button.secondary:hover {
+  background-color: #2ecc71;
+  color: white;
+  border-color: #2ecc71;
+}
+
+/* Tombol Besar */
+.button.large {
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+/* Tombol dengan Ikon */
+.button.icon {
+  position: relative;
+}
+
+.button.icon i {
+  margin-right: 5px;
+}
+
+/* Efek Ikon Hover */
+.button.icon:hover i {
+  transform: scale(1.3);
+}

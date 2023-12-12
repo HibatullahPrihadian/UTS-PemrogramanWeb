@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 53px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+.navbar {
+  overflow: hidden;
+  display: block;
+  background-color: #1d2a35;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  z-index: 100;
+}
+
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  background-color: #1bb68f;
+  color: #eeeeee;
+}
+
+header {
+  background-color: #62d2a2;
+  padding: 1.55em;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 0 100px 100px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.social-media {
+  margin-top: 50px;
+}
+
+.social-media a {
+
+  text-align: center;
+  display: inline-block;
+  margin: 65px;
+  color: rgba(55, 255, 0, 0.586) 23, 255, 0.597;
+  text-decoration: none;
+}
+
+.social-media img {
+ 
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin-bottom: -8px;
+  margin-right: 5px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  background-color: #1d2a35;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  bottom: 0;
+  width: 100%;
+}
